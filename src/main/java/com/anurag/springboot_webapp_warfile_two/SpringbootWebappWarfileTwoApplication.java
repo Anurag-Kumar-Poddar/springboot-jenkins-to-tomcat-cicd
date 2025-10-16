@@ -2,6 +2,7 @@ package com.anurag.springboot_webapp_warfile_two;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -16,6 +17,11 @@ public class SpringbootWebappWarfileTwoApplication {
 	@RequestMapping("/hii")
 	public String hii() {
 		return "<h1>wlcome to tomcat! webapp 2</h1>";
+	}
+	
+	@GetMapping("/welcome")
+	public String welcome() {
+		return "welcome to cat";
 	}
 
 }
