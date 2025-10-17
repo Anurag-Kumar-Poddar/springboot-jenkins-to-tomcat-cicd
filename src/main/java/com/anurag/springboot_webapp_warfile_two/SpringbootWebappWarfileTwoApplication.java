@@ -21,7 +21,7 @@ public class SpringbootWebappWarfileTwoApplication {
 	
 	@GetMapping("/welcome")
 	public String welcome() {
-		return "welcome to catalina";
+		return "<bgcolor=green>welcome to catalina";
 	}
 
 }
