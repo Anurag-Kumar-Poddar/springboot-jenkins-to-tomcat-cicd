@@ -21,7 +21,7 @@ public class SpringbootWebappWarfileTwoApplication {
 	
 	@GetMapping("/welcome")
 	public String welcome() {
-		return "welcome to cat";
+		return "welcome to catalina";
 	}
 
 }
